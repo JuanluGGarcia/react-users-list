@@ -1,11 +1,13 @@
 import Card from "./components/card/card";
-import Filters from "./components/filters/Filters";
+import { USERS } from "./constants/users";
+import { GlobalStyles } from "./styles/global-styles";
+
 
 const App = () => {
 	return (
 		<>
-			<Filters />
-			<Card />
+			<GlobalStyles />
+			<Card users={USERS} />
 		</>
 	) 
 	
