@@ -1,5 +1,4 @@
-import Card from "./components/card/card";
-import { USERS } from "./constants/users";
+import FilterUser from "./components/filteruser/FilterUser";
 import { GlobalStyles } from "./styles/global-styles";
 
 
@@ -7,7 +6,7 @@ const App = () => {
 	return (
 		<>
 			<GlobalStyles />
-			<Card users={USERS} />
+			<FilterUser />
 		</>
 	) 
 	
